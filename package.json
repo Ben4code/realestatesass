@@ -1,0 +1,23 @@
+{
+  "name": "nexter_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile" :" node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/ben4code.git"
+  },
+  "author": "MIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/ben4code/issues"
+  },
+  "homepage": "https://github.com/github.com/ben4code#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
