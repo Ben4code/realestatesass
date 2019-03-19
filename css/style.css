@@ -47,20 +47,24 @@ body {
   grid-column: col-start 5/ full-end; }
 
 .features {
-  grid-row: 2/3;
   grid-column: center-start/ center-end;
   margin: 15rem 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6rem; }
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start; }
   .features .feature {
     display: grid;
     grid-template-columns: min-content 1fr;
-    grid-template-rows: auto auto; }
+    grid-template-rows: auto auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2rem; }
     .features .feature__icon {
       fill: #c69963;
       width: 4.5rem;
-      height: 4.5rem; }
+      height: 4.5rem;
+      grid-row: 1/span 2;
+      transform: translateY(-1rem); }
     .features .feature__text {
       font-size: 1.7rem; }
 
