@@ -29,6 +29,7 @@
         z-index: 2;
         justify-self: end;
         margin: 1rem;
+        cursor: pointer;
     }
 
     svg.home__like {
@@ -69,7 +70,6 @@
         margin-left: 2rem;
         display: flex;
         align-items: center;
-        // justify-content: center;
 
         svg{
             width: 2rem;
